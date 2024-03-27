@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HM</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      nav {
+        background-color: #ffffff;
+        color: #000000;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+      }
+
+      .logo img {
+        width: 100px; /* Adjust according to your logo size */
+        margin-left: 290px;
+      }
+
+      .nav-links {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-grow: 1; /* Allow this section to expand */
+        justify-content: center; /* Space evenly between items */
+        gap: 10px;
+        color: black;
+      }
+
+      .nav-links li {
+        margin: 0 15px; /* Adjust the space between each navigation link */
+      }
+
+      .nav-links li a {
+        text-decoration: none;
+        color: #000000;
+      }
+
+      .button123 {
+        display: flex;
+        gap: 5px; /* Decreased the gap between buttons */
+        margin-right: 160px; /* Maintaining the original margin */
+      }
+
+      .button123 button {
+        padding: 8px 12px;
+        border-radius: 5px;
+        background-color: #169f63;
+        text-align: center;
+        border: none;
+        cursor: pointer;
+        font-size: 20px;
+      }
+
+      /* Styling for the image after navbar */
+      .image-after-navbar {
+        position: relative;
+        margin-top: px; /* Adjust the margin as needed */
+      }
+
+      .image-after-navbar img {
+        width: 100%;
+        max-width: 100%;
+        height: 700px;
+        display: block;
+      }
+
+      .text-overlay {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position: absolute;
+        margin-right: 50px;
+        top: 40%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        padding-left: 20px;
+        padding-right: 20px;
+        color: #ffffff;
+        font-size: 40px;
+        font-weight: bold;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adding shadow for better visibility */
+      }
+
+      .cards-container {
+        position: absolute;
+        top: -19%;
+        right: -130%;
+        gap: 20px; /* Adjust the gap between cards */
+      }
+
+      .card {
+        width: 400px;
+  height: 70px;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 100px;
+  margin-bottom: 20px; /* Add margin at the bottom to create space between cards */
+      }
+
+      .card h3 {
+        margin-top: 0;
+      }
+      .quotes {
+        font-size: 15px;
+      }
+      .AI1 {
+        color: #169f63;
+      }
+
+      .button1234 {
+        display: flex;
+        gap: 15px; /* Decreased the gap between buttons */
+        margin-right: 160px; /* Maintaining the original margin */
+        margin-top: 20px;
+      }
+
+      .button1234 button {
+        padding: 8px 12px;
+        font-size: 36px;
+        width: rem;
+        border-radius: 30px;
+        background-color: #169f63;
+        color: #fff;
+        border: white;
+        cursor: pointer;
+        margin-top: 3px;
+      }
+      .card12 {
+        font-size: 19px;
+        text-align: center;
+        margin-top: 20px;
+        overflow: hidden;
+      }
+      .cards-container :nth-child(1) {
+        margin: 15px;
+      }
+      .cards-container :nth-child(2) {
+        margin: 15px;
+      }
+      .cards-container :nth-child(3) {
+        margin: 15px;
+      }
+      .cards-container :nth-child(4) {
+        margin: 15px;
+      }
+
+      .typewriter p {
+        color: #169f63;
+        overflow: hidden; /* Ensures the content is not revealed until the animation */
+        border-right: 0.15em solid orange; /* The typewriter cursor */
+        white-space: nowrap; /* Keeps the content on a single line */
+        /* margin: 0 auto; Gives that scrolling effect as the typing happens */
+        letter-spacing: 0.15em; /* Adjust as needed */
+        animation: typing 3.5s steps(40, end) infinite,
+          /* Looping typing animation */ blink-caret 0.75s step-start infinite; /* Blinking cursor animation */
+      }
+
+      /* The typing effect */
+      @keyframes typing {
+        from {
+          width: 0;
+        }
+        to {
+          width: 100%;
+        }
+      }
+
+      /* The typewriter cursor effect */
+      @keyframes blink-caret {
+        from,
+        to {
+          border-color: transparent;
+        }
+        50% {
+          border-color: orange;
+        }
+      }
+      .card123 {
+        font-size: 19px;
+        text-align: ;
+        margin-bottom: ;
+        overflow: hidden;
+        color: #169f63;
+        text-align: center;
+      }
+      .nav-links {
+        a:hover {
+          background-color: bisque;
+          color: black;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="logo"><img src="Asset-5.png" alt="HM" /></div>
+      <ul class="nav-links">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">COURSES</a></li>
+        <li><a href="#">HIRE FROM US</a></li>
+        <li><a href="#">CAREER SERVICES</a></li>
+        <li><a href="#">AI MINDS</a></li>
+      </ul>
+      <div class="button123">
+        <button class="btn"><i class="fa fa-home"></i> LOGIN</button>
+        <button class="btn"><i class="fa fa-home"></i> SIGN UP</button>
+      </div>
+    </nav>
+
+    <div class="image-after-navbar">
+      <img src="network_-_12716 (1080p).gif" alt="Image after navbar" />
+      <div class="text-overlay">
+        Professional Certificate of <br />
+        <h3 class="typewriter">
+          <p>AI & Data Science</p>
+        </h3>
+        <h4 class="quotes">
+          Learn in-demand AI skills such as deep Learning,Generative AI,NLP &
+          <br />
+          Reinforcement Learning. Learning Master 15+ tools & languages <br />
+          along with latest Gen AI tools while also working on 12+ industry
+          <br />
+          projects
+        </h4>
+        <div class="cards-container">
+          <div class="card">
+            <h3 class="card123">Partner with</h3>
+            <p class="card12">NSDC</p>
+          </div>
+          <div class="card">
+            <h3 class="card123">Boom in AI Applications</h3>
+            <p class="card12">Limited Seats Available</p>
+          </div>
+          <div class="card">
+            <h3 class="card123">Program Duration: 40 Weeks</h3>
+            <p class="card12">8-10 hours/week</p>
+          </div>
+          <div class="card">
+            <h3 class="card123">Learning Format</h3>
+            <p class="card12">Online Live Classes</p>
+          </div>
+        </div>
+        <div class="button1234">
+          <button type="button">Enroll Now</button>
+          <button type="button">Download Brochure</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
